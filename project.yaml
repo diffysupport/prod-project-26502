@@ -1,0 +1,40 @@
+basic:
+    name: 'Docksal Drupal 10'
+    environments:
+        production: 'https://prod-5dbd2809-2f20fd06-bh2x3nsk.cms-devpanel.click/'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 375
+        - 640
+        - 1200
+        - 1280
+        - 1920
+    pages:
+        - /
+        - node/1
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 10
+    scroll: false
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
