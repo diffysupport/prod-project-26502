@@ -1,7 +1,7 @@
 basic:
     name: 'Docksal Drupal 10'
     environments:
-        production: 'https://prod-5dbd2809-2f20fd06-bh2x3nsk.cms-devpanel.click/'
+        production: 'https://prod-5dbd2809-2f20fd06-bh2x3nsk.cms-devpanel.click'
         staging: ''
         development: ''
     breakpoints:
@@ -9,7 +9,7 @@ basic:
         - 1200
     pages:
         - /
-        - node/1
+        - /node/1
     monitoring:
         days: {  }
         type: ''
