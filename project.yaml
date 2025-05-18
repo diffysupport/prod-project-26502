@@ -1,7 +1,7 @@
 basic:
     name: 'Docksal Drupal 10'
     environments:
-        production: 'https://prod-5dbd2809-2f20fd06-bh2x3nsk.cms-devpanel.click'
+        production: 'https://drupal.org'
         staging: ''
         development: ''
     breakpoints:
